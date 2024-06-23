@@ -310,7 +310,7 @@ struct MapHeader
 /// The struct used to read a map file and generate the brushes and things to be used to generate
 /// another file format.
 /// ```
-/// let exporter = hill_vacuum::Exporter::new(&std::env::args().collect::<Vec<_>>()[0]);
+/// let exporter = hill_vacuum_lib::Exporter::new(&std::env::args().collect::<Vec<_>>()[0]);
 /// // Your code.
 /// ```
 #[must_use]
