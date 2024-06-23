@@ -2072,7 +2072,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df"
 
 [[package]]
-name = "hill_vacuum_proc_macros"
+name = "hill_vacuum_lib"
 version = "0.2.5"
 dependencies = [
  "arrayvec",
@@ -2083,7 +2083,7 @@ dependencies = [
  "configparser",
  "egui_extras",
  "hashbrown",
- "hill_vacuum_proc_macros 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hill_vacuum_proc_macros",
  "hill_vacuum_shared",
  "is_executable",
  "paste",
