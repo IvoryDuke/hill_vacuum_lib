@@ -367,7 +367,7 @@ impl Plugin for HillVacuumPlugin
 
 /// The error message showed on screen when issues arise.
 #[inline]
-pub fn error_message(error: &str)
+fn error_message(error: &str)
 {
     rfd::MessageDialog::new()
         .set_title("ERROR")
